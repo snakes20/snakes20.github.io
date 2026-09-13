@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Can It! — Delete Your Account</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1c1c1e;
+    --muted: #6b7280;
+    --accent: #2f6f4f;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .app-icon {
+    width: 72px; height: 72px; border-radius: 16px;
+    background: var(--accent); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px; margin: 0 auto 16px;
+  }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 16px; margin: 0; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 24px 28px; margin-bottom: 20px;
+  }
+  h2 { font-size: 18px; margin: 0 0 12px; }
+  p { margin: 0 0 12px; color: var(--text); }
+  p:last-child { margin-bottom: 0; }
+  ul { margin: 0; padding-left: 1.25rem; }
+  li { margin-bottom: 6px; }
+  .contact-btn {
+    display: inline-block; background: var(--accent); color: #fff;
+    text-decoration: none; font-weight: 600; padding: 12px 24px;
+    border-radius: 8px; margin-top: 8px;
+  }
+  .contact-btn:hover { opacity: 0.9; }
+  .step { display: flex; gap: 12px; margin-bottom: 14px; }
+  .step:last-child { margin-bottom: 0; }
+  .step-num {
+    flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+    background: var(--accent); color: #fff; font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 40px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="app-icon">🥫</div>
+      <h1>Delete Your Can It! Account</h1>
+      <p class="subtitle">How to request deletion of your account and cloud-synced data.</p>
+    </header>
+
+    <div class="card">
+      <h2>Steps to delete your account</h2>
+      <div class="step">
+        <div class="step-num">1</div>
+        <p>Email <a href="mailto:jakedev82@gmail.com?subject=Delete%20my%20Can%20It%20account">jakedev82@gmail.com</a> with the subject line <strong>"Delete my Can It account"</strong>.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <p>Include the email address you used to sign in to CanIt Cloud, so we can find and remove your account.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <p>We'll confirm by email once your account and synced data have been deleted — typically within 7 days.</p>
+      </div>
+      <a class="contact-btn" href="mailto:jakedev82@gmail.com?subject=Delete%20my%20Can%20It%20account">Request Account Deletion</a>
+    </div>
+
+    <div class="card">
+      <h2>What gets deleted</h2>
+      <ul>
+        <li>Your account (sign-in email and authentication record)</li>
+        <li>All cloud-synced data tied to your account: recipes, ingredients, instructions, canning sessions, jars, and storage locations</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>What isn't affected</h2>
+      <ul>
+        <li>Data stored only on your device — Can It! works fully offline, and if you never enabled CanIt Cloud, your data never left your device. Uninstalling the app removes it.</li>
+        <li>Purchase/subscription records, which are managed by Apple, Google Play, and RevenueCat for entitlement purposes and aren't affected by this request. For refunds or purchase history, contact Apple or Google Play directly.</li>
+      </ul>
+    </div>
+
+    <footer>
+      &copy; 2026 Can It!. All rights reserved. See our <a href="privacy.html">Privacy Policy</a>.
+    </footer>
+  </div>
+</body>
+</html>
